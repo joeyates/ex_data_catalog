@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+>
+  <dcat:Dataset rdf:about="https://dati.toscana.it/dataset/8bb8f8fe-fe7d-41d0-90dc-49f2456180d1">
+    <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Dataset"/>
+    <dct:title>Regione Toscana - Orari trasporto pubblico</dct:title>
+    <dct:title xml:lang="it">Regione Toscana - Orari trasporto pubblico</dct:title>
+    <dct:description>Il dataset contiene i dati relativi alle corse, agli orari e alle fermate del trasporto pubblico (treni, traghetti, tram, bus urbani ed extra-urbani) in tutta la Regione Toscana. &#13;
+Sono presenti 62 file: 2 per il servizio ferroviario, 1 per i servizi marittimi, 1 per il tram e 58 per gli autobus.&#13;
+&#13;
+ * TFT.gtfs: servizio ferroviario svolto da Trasporto Ferroviario Toscano S.p.A. sulle linee “Arezzo - Stia” e “Arezzo - Sinalunga”&#13;
+* TRENITALIA.gtfs: servizio ferroviario svolto da Trenitalia S.p.A. sulle linee regionali toscane&#13;
+* TOREMAR.gtfs: servizio marittimo svolto da Toremar S.p.A. con traghetti tra i porti di Livorno, Capraia, Gorgona, Piombino, Portoferraio, Cavo, Rio Marina, Pianosa, Porto Santo Stefano, Giglio, Giannutri&#13;
+* GEST.gtfs: servizio tramviario svolto da Gest S.p.A. sulle linee di Firenze&#13;
+* ExtraUrbano Massa Carrara, ExtraUrbano Lucca, ExtraUrbano Pisa, ExtraUrbano Livorno, ExtraUrbano Pistoia, ExtraUrbano Prato, ExtraUrbano Firenze, ExtraUrbano Empolese Valdelsa, ExtraUrbano Arezzo, ExtraUrbano Siena, ExtraUrbano Grosseto, Urbano Massa, Urbano Massa e Carrara, Urbano Carrara, Urbano Lucca, Urbano Pisa, Urbano Livorno, Urbano Pistoia, Urbano Prato, Urbano Area Metropolitana Fiorentina, Urbano Arezzo, Urbano Siena, Urbano Grosseto, Urbano Viareggio, Urbano Cecina, Urbano Portoferraio, Urbano Rosignano Marittimo, Urbano Montecatini Terme, Urbano Pescia, Urbano Certaldo, Urbano Empoli, Urbano Intercomunale Valdarno Aretino, Urbano Chiusi, Urbano Chianciano Terme, Urbano Colle Valdelsa, Urbano Montepulciano, Urbano Poggibonsi, Urbano San Gimignano, Urbano Follonica, Urbano Piombino, Linee Regionali, Servizi Sostitutivi Ferroviari, ExtraUrbano Debole Pistoia, ExtraUrbano Debole Prato, Urbano Debole Pisa, ExtraUrbano Debole Massa Carrara, ExtraUrbano Debole Lucca, ExtraUrbano Debole Pisa, ExtraUrbano Debole Siena, Urbano Debole Pontedera, Urbano Debole Volterra, Urbano Debole San Miniato, ExtraUrbano Debole Subbiano, ExtraUrbano Debole Capolona, ExtraUrbano Debole Unione Comuni del Casentino, ExtraUrbano Debole Sansepolcro, ExtraUrbano Debole Cortona, ExtraUrbano Debole Monte San Savino, ExtraUrbano Debole Civitella in Val di Chiana: servizio bus svolto da Autolinee Toscane S.p.A. sulle linee extraurbane e urbane nelle città e nei territori citati&#13;
+&#13;
+&#13;
+I dati sono conformi alle General Transit Feed Specification Reference. Ogni risorsa è un file zip denominato con il nome dell’azienda di trasporto e contenente i seguenti file in formato GTFS:&#13;
+&#13;
+* agency.txt: azienda di trasporto a cui si riferiscono i dati&#13;
+* stops.txt: elenco dei punti di salita/discesa dei passeggeri (fermate, stazioni, porti)&#13;
+* ruotes.txt: elenco delle linee di trasporto&#13;
+* trips.txt: elenco delle corse per ogni linea di trasporto&#13;
+* stop_times.txt: orari di arrivo e partenza ad ogni fermata di ciascuna corsa&#13;
+* calendar.txt: calendario di servizio&#13;
+* shapes.txt: elenco delle coordinate (latitudine, longitudine) per disegnare le corse su una mappa</dct:description>
+    <dct:description xml:lang="it">Il dataset contiene i dati relativi alle corse, agli orari e alle fermate del trasporto pubblico (treni, traghetti, tram, bus urbani ed extra-urbani) in tutta la Regione Toscana. &#13;
+Sono presenti 62 file: 2 per il servizio ferroviario, 1 per i servizi marittimi, 1 per il tram e 58 per gli autobus.&#13;
+&#13;
+ * TFT.gtfs: servizio ferroviario svolto da Trasporto Ferroviario Toscano S.p.A. sulle linee “Arezzo - Stia” e “Arezzo - Sinalunga”&#13;
+* TRENITALIA.gtfs: servizio ferroviario svolto da Trenitalia S.p.A. sulle linee regionali toscane&#13;
+* TOREMAR.gtfs: servizio marittimo svolto da Toremar S.p.A. con traghetti tra i porti di Livorno, Capraia, Gorgona, Piombino, Portoferraio, Cavo, Rio Marina, Pianosa, Porto Santo Stefano, Giglio, Giannutri&#13;
+* GEST.gtfs: servizio tramviario svolto da Gest S.p.A. sulle linee di Firenze&#13;
+* ExtraUrbano Massa Carrara, ExtraUrbano Lucca, ExtraUrbano Pisa, ExtraUrbano Livorno, ExtraUrbano Pistoia, ExtraUrbano Prato, ExtraUrbano Firenze, ExtraUrbano Empolese Valdelsa, ExtraUrbano Arezzo, ExtraUrbano Siena, ExtraUrbano Grosseto, Urbano Massa, Urbano Massa e Carrara, Urbano Carrara, Urbano Lucca, Urbano Pisa, Urbano Livorno, Urbano Pistoia, Urbano Prato, Urbano Area Metropolitana Fiorentina, Urbano Arezzo, Urbano Siena, Urbano Grosseto, Urbano Viareggio, Urbano Cecina, Urbano Portoferraio, Urbano Rosignano Marittimo, Urbano Montecatini Terme, Urbano Pescia, Urbano Certaldo, Urbano Empoli, Urbano Intercomunale Valdarno Aretino, Urbano Chiusi, Urbano Chianciano Terme, Urbano Colle Valdelsa, Urbano Montepulciano, Urbano Poggibonsi, Urbano San Gimignano, Urbano Follonica, Urbano Piombino, Linee Regionali, Servizi Sostitutivi Ferroviari, ExtraUrbano Debole Pistoia, ExtraUrbano Debole Prato, Urbano Debole Pisa, ExtraUrbano Debole Massa Carrara, ExtraUrbano Debole Lucca, ExtraUrbano Debole Pisa, ExtraUrbano Debole Siena, Urbano Debole Pontedera, Urbano Debole Volterra, Urbano Debole San Miniato, ExtraUrbano Debole Subbiano, ExtraUrbano Debole Capolona, ExtraUrbano Debole Unione Comuni del Casentino, ExtraUrbano Debole Sansepolcro, ExtraUrbano Debole Cortona, ExtraUrbano Debole Monte San Savino, ExtraUrbano Debole Civitella in Val di Chiana: servizio bus svolto da Autolinee Toscane S.p.A. sulle linee extraurbane e urbane nelle città e nei territori citati&#13;
+&#13;
+&#13;
+I dati sono conformi alle General Transit Feed Specification Reference. Ogni risorsa è un file zip denominato con il nome dell’azienda di trasporto e contenente i seguenti file in formato GTFS:&#13;
+&#13;
+* agency.txt: azienda di trasporto a cui si riferiscono i dati&#13;
+* stops.txt: elenco dei punti di salita/discesa dei passeggeri (fermate, stazioni, porti)&#13;
+* ruotes.txt: elenco delle linee di trasporto&#13;
+* trips.txt: elenco delle corse per ogni linea di trasporto&#13;
+* stop_times.txt: orari di arrivo e partenza ad ogni fermata di ciascuna corsa&#13;
+* calendar.txt: calendario di servizio&#13;
+* shapes.txt: elenco delle coordinate (latitudine, longitudine) per disegnare le corse su una mappa</dct:description>
+    <dct:identifier>rt-oraritb</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/UPDATE_CONT"/>
+    <dcat:keyword>Georeferenziato</dcat:keyword>
+    <dcat:keyword>Regione Toscana</dcat:keyword>
+    <dcat:keyword>orari</dcat:keyword>
+    <dcat:keyword>trasporti</dcat:keyword>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-11-06T00:00:00</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-11T00:00:00</dct:modified>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dcat:theme>
+      <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/TRAN">
+        <skos:prefLabel xml:lang="en">Transport</skos:prefLabel>
+        <skos:prefLabel xml:lang="it">Trasporti</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Transports</skos:prefLabel>
+        <skos:prefLabel xml:lang="de">Verkehr</skos:prefLabel>
+        <skos:prefLabel xml:lang="es">Transporte</skos:prefLabel>
+      </skos:Concept>
+    </dcat:theme>
+    <dct:conformsTo>
+      <dct:Standard rdf:nodeID="Ncf0763f344034221a32d71f7e702d587">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Standard"/>
+        <dct:identifier>https://developers.google.com/transit/gtfs/reference/</dct:identifier>
+        <dct:title xml:lang="it"></dct:title>
+        <dct:description xml:lang="it"></dct:description>
+      </dct:Standard>
+    </dct:conformsTo>
+    <dcat:contactPoint>
+      <dcatapit:Organization rdf:about="https://dati.toscana.it/organization/d1643030-7809-4c27-a96e-755706311afb">
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+        <vcard:fn>regione-toscana</vcard:fn>
+        <vcard:hasEmail rdf:resource="info@open.toscana.it"/>
+        <vcard:hasTelephone></vcard:hasTelephone>
+        <vcard:hasURL rdf:resource=""/>
+      </dcatapit:Organization>
+    </dcat:contactPoint>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="N2b505ec1c54f4722bdd1645df49040df">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <foaf:name xml:lang="it">Regione Toscana</foaf:name>
+        <dct:identifier> r_toscan</dct:identifier>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dcat:distribution>
+      <dcat:Distribution rdf:about="https://dati.toscana.it/dataset/8bb8f8fe-fe7d-41d0-90dc-49f2456180d1/resource/4f85393b-357d-443d-8378-65de4198505f">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#Distribution"/>
+        <dct:title>TRENITALIA.gtfs</dct:title>
+        <dct:title xml:lang="it">TRENITALIA.gtfs</dct:title>
+        <dct:description>servizio ferroviario svolto da Trenitalia S.p.A. sulle linee regionali toscane</dct:description>
+        <dct:description xml:lang="it">servizio ferroviario svolto da Trenitalia S.p.A. sulle linee regionali toscane</dct:description>
+        <dcat:mediaType>application/zip</dcat:mediaType>
+        <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+        <dcat:accessURL rdf:resource="https://dati.toscana.it/dataset/8bb8f8fe-fe7d-41d0-90dc-49f2456180d1/resource/4f85393b-357d-443d-8378-65de4198505f/download/trenitalia.gtfs"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-19T10:35:03.253522</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-09T20:01:29.373851</dct:modified>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6574832.0</dcat:byteSize>
+        <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+      </dcat:Distribution>
+    </dcat:distribution>
+  </dcat:Dataset>
+  <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+    <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+    <owl:versionInfo>4.0</owl:versionInfo>
+    <foaf:name xml:lang="it">Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+    <foaf:name xml:lang="en">Creative Commons Attribution 4.0 International (CC BY 4.0)</foaf:name>
+    <foaf:name xml:lang="de">Creative Commons Namensnennung 4.0 International (CC BY 4.0)</foaf:name>
+    <foaf:name xml:lang="fr">Creative Commons Attribution 4.0 International (CC BY 4.0)</foaf:name>
+  </dcatapit:LicenseDocument>
+</rdf:RDF>
