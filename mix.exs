@@ -18,6 +18,8 @@ defmodule ExDataCatalog.MixProject do
   end
 
   defp deps do
-    []
+    [
+      {:sweet_xml, "~> 0.7.4"}
+    ]
   end
 end
